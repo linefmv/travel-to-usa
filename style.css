@@ -1,21 +1,32 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-color: #000000;
-    background-size: 100vh;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+    min-height: 600px;
+
   }
   
   .container {
-    text-align: center;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     padding: 20px;
-    height: 100vh;
+    text-align: center;
+    height: 15vh;
+    width: 50vh;
+    background-color: rosybrown;
   }
   
+  .input-real {
+
+  }
   .page-title {
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 2rem;
+    text-align: center;
   }
   
   .page-subtitle {
@@ -23,11 +34,11 @@ body {
     margin-top: 5px;
   }
   
-  .page-logo {
+ .page-logo {
     width: 1000px;
   }
   
-  .dev-imersao {
-      text-align: center;
-    color: white;
+footer {
+text-align: center;
+    color: rgb(5, 5, 5);
   }
