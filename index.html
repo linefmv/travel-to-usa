@@ -1,28 +1,33 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="converter-money.js">
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico">
     <title>
         Travel to USA
     </title>
 </head>
 <body>
+    <h1 class="page-title"> Convert your real to dollar </h1>
     <div class="container">
-        <h1 class="page-title"> Convert your real to dollar </h1>
         <div class="input-real">
             <label>Value in real</label>
-            <input type="number" min="0" max="100000" placeholder="R$" id="realvalue">
+            <input type="number" min="0" max="100000" placeholder="R$" id="real">
         </div>
         <p class="to"> to</p>
          <div class="input-dolar">
             <label>Value in dolar</label>
-            <input type="number" min="0" max="100000" placeholder="US$" id="dolarvalue">
+            <input type="number" min="0" max="100000" placeholder="US$" id="dolar">
         </div>
+        <button> converter</button>
+
         <!-- <img src="img/Flag_of_the_United_States_(1847–1848).svg" class="page-logo" alt="flag usa"> --> 
     </div>
-
+    <div class="result" id='resultado'></div>
+        </div>
+    <script src="converter-money.js"></script>
     <footer class="dev-imersao">
         Imersão Dev - Aula 01
     </footer>
